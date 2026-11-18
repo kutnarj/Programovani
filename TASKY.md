@@ -4,42 +4,42 @@
 
 | ID | Úkol | Story | Řešitel | Reviewer | Odhad (h) | Skutečně (h) |
 |---|---|---|---|---|---|---|
-| T1 | Přidání hráče | 1, 2 | A | B | 2 |  |
-| T2 | Výpis hráčů | 3 | A | B | 1 |  |
-| T3 | Odebrání hráče | 4, 5 | A | B | 2 |  |
+| T1 | Přidání hráče | 1, 2 | Tobi | B | 2 |  |
+| T2 | Výpis hráčů | 3 | Tobi | B | 1 |  |
+| T3 | Odebrání hráče | 4, 5 | Tobi | B | 2 |  |
 | T4 | Založení turnaje | 6, 7 | B | C | 2 |  |
 | T5 | Přihlášení a odhlášení hráče | 8, 9 | B | C | 2 |  |
 | T6 | Vytvoření nového kola | 10 | B | C | 1.5 |  |
-| T7 | Ruční určení dvojic | 11, 12 | C | D | 3 |  |
-| T8 | Volný los | 13 | C | D | 2 |  |
-| T9 | Zadání výsledku zápasu | 14, 17 | C | D | 2 |  |
+| T7 | Ruční určení dvojic | 11, 12 | C | Matěj | 3 |  |
+| T8 | Volný los | 13 | C | Matěj | 2 |  |
+| T9 | Zadání výsledku zápasu | 14, 17 | C | Matěj | 2 |  |
 | T10 | Přepsání výsledku | 15 | B | C | 1 |  |
 | T11 | Uzavření kola | 16 | B | C | 1.5 |  |
-| T12 | Výpis kola a jeho zápasů | 10, 14 | D | E | 1.5 |  |
-| T13 | Výpočet tabulky | 19, 20 | D | E | 3 |  |
-| T14 | Zobrazení tabulky | 18 | D | E | 1.5 |  |
-| T15 | Uložení turnaje | 21 | E | A | 4 |  |
-| T16 | Načtení turnaje | 22 | E | A | 5 |  |
-| T17 | Chybějící soubor | 23 | A | B | 1 |  |
-| T18 | Poškozený soubor | 24 | D | E | 3 |  |
-| T19 | Ošetření vstupů z klávesnice | 25 | A | B | 3 |  |
-| T20 | Konzolové menu | 11, 25 | C | D | 3 |  |
+| T12 | Výpis kola a jeho zápasů | 10, 14 | Matěj | Matěj | 1.5 |  |
+| T13 | Výpočet tabulky | 19, 20 | Matěj | Matěj | 3 |  |
+| T14 | Zobrazení tabulky | 18 | Matěj | Matěj | 1.5 |  |
+| T15 | Uložení turnaje | 21 | Matěj | Tobi | 4 |  |
+| T16 | Načtení turnaje | 22 | Matěj | Tobi | 5 |  |
+| T17 | Chybějící soubor | 23 | Tobi | B | 1 |  |
+| T18 | Poškozený soubor | 24 | Matěj | Matěj | 3 |  |
+| T19 | Ošetření vstupů z klávesnice | 25 | Tobi | B | 3 |  |
+| T20 | Konzolové menu | 11, 25 | C | Matěj | 3 |  |
 | T21 | Oddělení logiky od výpisu | 27 | Celý tým | podle PR | 2 |  |
-| T22 | Ověření tabulky ručním výpočtem | 26 | D | C | 3 |  |
+| T22 | Ověření tabulky ručním výpočtem | 26 | Matěj | C | 3 |  |
 | T23 | Repozitář, větve Dev/Stage/Main, šablona PR | 28 | B | C | 1.5 |  |
-| T24 | Kanban board a naplnění tasky | 29 | C | D | 1 |  |
-| T25 | Dokument User-stories.md | 30 | A | B | 2 |  |
-| T26 | Dokument SPECIFIKACE.md | 30 | C | D | 3 |  |
-| T27 | Dokument NAVRH.md – třídy | 30 | D | E | 3 |  |
-| T28 | Návrh vlastního formátu ukládání | 30 | E | A | 3 |  |
+| T24 | Kanban board a naplnění tasky | 29 | C | Matěj | 1 |  |
+| T25 | Dokument User-stories.md | 30 | Tobi | B | 2 |  |
+| T26 | Dokument SPECIFIKACE.md | 30 | C | Matěj | 3 |  |
+| T27 | Dokument NAVRH.md – třídy | 30 | Matěj | Matěj | 3 |  |
+| T28 | Návrh vlastního formátu ukládání | 30 | Matěj | Tobi | 3 |  |
 | T29 | Automatické testy logiky | 26, 27 | B | C | 3 |  |
-| T30 | Testování na Stage a odevzdání do Main | 26, 30 | Celý tým (vede A) | podle PR | 3 |  |
+| T30 | Testování na Stage a odevzdání do Main | 26, 30 | Celý tým (vede Tobi) | podle PR | 3 |  |
 
 ## Detail tasků
 
 ### T1: Přidání hráče
 - Story: 1, 2
-- Řešitel: A, reviewer: B
+- Řešitel: Tobi, reviewer: B
 - Odhad: 2 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Jde zadat jméno a přezdívku.
@@ -48,7 +48,7 @@
 
 ### T2: Výpis hráčů
 - Story: 3
-- Řešitel: A, reviewer: B
+- Řešitel: Tobi, reviewer: B
 - Odhad: 1 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Vypíše všechny hráče se jménem a přezdívkou.
@@ -56,7 +56,7 @@
 
 ### T3: Odebrání hráče
 - Story: 4, 5
-- Řešitel: A, reviewer: B
+- Řešitel: Tobi, reviewer: B
 - Odhad: 2 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Hráče jde odebrat podle přezdívky.
@@ -94,7 +94,7 @@
 
 ### T7: Ruční určení dvojic
 - Story: 11, 12
-- Řešitel: C, reviewer: D
+- Řešitel: C, reviewer: Matěj
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Dvojice se tvoří jen z přihlášených hráčů.
@@ -104,7 +104,7 @@
 
 ### T8: Volný los
 - Story: 13
-- Řešitel: C, reviewer: D
+- Řešitel: C, reviewer: Matěj
 - Odhad: 2 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Hráč bez soupeře v kole je označen jako volný los (max. jeden na kolo).
@@ -113,7 +113,7 @@
 
 ### T9: Zadání výsledku zápasu
 - Story: 14, 17
-- Řešitel: C, reviewer: D
+- Řešitel: C, reviewer: Matěj
 - Odhad: 2 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Povolené výsledky jsou výhra 1., výhra 2. a remíza.
@@ -139,7 +139,7 @@
 
 ### T12: Výpis kola a jeho zápasů
 - Story: 10, 14
-- Řešitel: D, reviewer: E
+- Řešitel: Matěj, reviewer: Matěj
 - Odhad: 1.5 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Vypíše dvojice, výsledky a volný los daného kola.
@@ -147,7 +147,7 @@
 
 ### T13: Výpočet tabulky
 - Story: 19, 20
-- Řešitel: D, reviewer: E
+- Řešitel: Matěj, reviewer: Matěj
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Body se počítají podle SPECIFIKACE.md včetně volných losů.
@@ -156,7 +156,7 @@
 
 ### T14: Zobrazení tabulky
 - Story: 18
-- Řešitel: D, reviewer: E
+- Řešitel: Matěj, reviewer: Matěj
 - Odhad: 1.5 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Zobrazí pořadí, hráče, body a počet odehraných zápasů.
@@ -164,7 +164,7 @@
 
 ### T15: Uložení turnaje
 - Story: 21
-- Řešitel: E, reviewer: A
+- Řešitel: Matěj, reviewer: Tobi
 - Odhad: 4 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Ukládá hráče, turnaj, přihlášky, kola, zápasy, volné losy a výsledky.
@@ -174,7 +174,7 @@
 
 ### T16: Načtení turnaje
 - Story: 22
-- Řešitel: E, reviewer: A
+- Řešitel: Matěj, reviewer: Tobi
 - Odhad: 5 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Po načtení jde plynule pokračovat v práci.
@@ -183,7 +183,7 @@
 
 ### T17: Chybějící soubor
 - Story: 23
-- Řešitel: A, reviewer: B
+- Řešitel: Tobi, reviewer: B
 - Odhad: 1 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Při chybějícím souboru program normálně nastartuje s prázdným stavem.
@@ -191,7 +191,7 @@
 
 ### T18: Poškozený soubor
 - Story: 24
-- Řešitel: D, reviewer: E
+- Řešitel: Matěj, reviewer: Matěj
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Neplatný záznam (neznámý typ, špatný počet polí, duplicita, odkaz na neexistujícího hráče) program nezhroutí.
@@ -200,7 +200,7 @@
 
 ### T19: Ošetření vstupů z klávesnice
 - Story: 25
-- Řešitel: A, reviewer: B
+- Řešitel: Tobi, reviewer: B
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Text místo čísla, číslo mimo rozsah a prázdný vstup jsou ošetřené všude.
@@ -209,7 +209,7 @@
 
 ### T20: Konzolové menu
 - Story: 11, 25
-- Řešitel: C, reviewer: D
+- Řešitel: C, reviewer: Matěj
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Hlavní menu zpřístupní všechny funkce a umí je opakovat.
@@ -227,7 +227,7 @@
 
 ### T22: Ověření tabulky ručním výpočtem
 - Story: 26
-- Řešitel: D, reviewer: C
+- Řešitel: Matěj, reviewer: C
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Připravený turnaj má 4–5 hráčů, min. 3 kola, remízu a volný los.
@@ -245,7 +245,7 @@
 
 ### T24: Kanban board a naplnění tasky
 - Story: 29
-- Řešitel: C, reviewer: D
+- Řešitel: C, reviewer: Matěj
 - Odhad: 1 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Board (GitHub Projects/Trello) má sloupce Backlog, In progress, Review/Test, Done.
@@ -254,7 +254,7 @@
 
 ### T25: Dokument User-stories.md
 - Story: 30
-- Řešitel: A, reviewer: B
+- Řešitel: Tobi, reviewer: B
 - Odhad: 2 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Obsahuje role a všechny stories ve tvaru 'Jako … chci …, abych …'.
@@ -262,7 +262,7 @@
 
 ### T26: Dokument SPECIFIKACE.md
 - Story: 30
-- Řešitel: C, reviewer: D
+- Řešitel: C, reviewer: Matěj
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Obsahuje slovník pojmů, bodování (výhra, remíza, volný los) a seznam funkcí.
@@ -270,7 +270,7 @@
 
 ### T27: Dokument NAVRH.md – třídy
 - Story: 30
-- Řešitel: D, reviewer: E
+- Řešitel: Matěj, reviewer: Matěj
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Seznam tříd a co drží.
@@ -279,7 +279,7 @@
 
 ### T28: Návrh vlastního formátu ukládání
 - Story: 30
-- Řešitel: E, reviewer: A
+- Řešitel: Matěj, reviewer: Tobi
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Popsán typ záznamu, oddělování záznamů, escapování, vyhledávání, duplicity, verze.
@@ -296,7 +296,7 @@
 
 ### T30: Testování na Stage a odevzdání do Main
 - Story: 26, 30
-- Řešitel: Celý tým (vede A), reviewer: podle PR
+- Řešitel: Celý tým (vede Tobi), reviewer: podle PR
 - Odhad: 3 h, skutečně: 
 - Akceptační kritéria:
   - [ ] Stage je prošlá kompletním testováním podle kritérií všech ticketů.
