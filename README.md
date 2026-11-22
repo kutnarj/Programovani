@@ -1,5 +1,8 @@
 # Správa turnaje
 
+[![CI – sestavení projektu](https://github.com/tobi-09/Programovani/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/tobi-09/Programovani/actions/workflows/build.yml)
+[![Licence: MIT](https://img.shields.io/badge/licence-MIT-green.svg)](LICENSE)
+
 Konzolová aplikace v C# pro evidenci školního turnaje. Pořadatel přidává hráče, založí turnaj, přihlásí účastníky, ručně vytvoří dvojice, zadá výsledky a zobrazí tabulku. Program nehraje žádnou disciplínu; eviduje pouze výsledky.
 
 ## Požadavky
@@ -72,3 +75,18 @@ dotnet restore Turnaj/Turnaj.csproj
 dotnet build Turnaj/Turnaj.csproj
 dotnet run --project Turnaj/Turnaj.csproj
 ```
+
+## GitHub Actions a stav sestavení
+
+Po každém `push` nebo `pull request` směrem na větev `main` GitHub automaticky:
+
+1. stáhne zdrojový kód,
+2. nastaví .NET SDK 10.0,
+3. obnoví závislosti,
+4. sestaví projekt v konfiguraci `Release`.
+
+Výsledek každého běhu je vidět pod záložkou **Actions** repozitáře. Zelený badge nahoře znamená úspěšné poslední sestavení, červený označuje chybu.
+
+## Licence
+
+Projekt je uvolněn pod licencí [MIT](LICENSE). Licence umožňuje volné použití, úpravy i šíření programu za podmínky zachování licenčního textu a upozornění o autorských právech.
