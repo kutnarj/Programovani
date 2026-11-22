@@ -1,5 +1,6 @@
 using Turnaj.Model;
 
+namespace Turnaj.Logic;
 public static class BoardCalculator
 {
     public static List<StandingRow> CalculateBoard(Tournament tournament)
